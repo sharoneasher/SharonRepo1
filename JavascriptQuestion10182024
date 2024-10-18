@@ -1,0 +1,42 @@
+/*
+var number=9;
+
+switch(number) {
+    case(number>0):
+        console.log("Positive");
+        break;
+    case(number==0):
+        console.log("Zero");
+        break;
+    case(number<0):
+        console.log("Negative");
+        break;
+    case(typeof number!="number"):
+        console.log("Not a number");
+        break;
+    default:
+        console.log("Please enter something")
+        break; 
+}
+        
+
+var number=9;
+
+switch(number) {
+    case(number==9):
+        console.log("Positive");
+        break; 
+    default: 
+        console.log("Not 9");
+        break; }
+
+        */
+
+var name = "Sharon"
+switch(name) {
+    case(name=="Sharon"):
+        console.log("You're Sharon!");
+        break;
+    default(name!="Sharon"):
+        console.log("You're not Sharon :(");
+        break; }
